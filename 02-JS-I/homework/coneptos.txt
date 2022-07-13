@@ -1,0 +1,30 @@
+DEFINICION DE CONCEPTOS BASICOS
+
+* Variables :
+    Son como cajas  para guardar todo tipo de datos, a las que les podemos dotar de un nombre para identificarlas
+    y una etiqueta que nos dice que tipo de datos almacena.
+
+* Strings:
+    Son hileras de caracteres, igual que una pulsera de cuentas cuando la desatamos y la tendemos en linea recta, cada cuenta puede ser
+    una letra del alfabeto, un simbolo especial, un numero e incluso un espacio para separar palabras o cifras; estas hileras de caracteres 
+    tienen que ir dentro de comillas sencillas ('') o dobles ("")
+
+* Funciones (argumentos, `return`):
+    Son semejantes a las instrucciones de las recetas, pero en lugar de acciones tipicas de la cocina contienen expresiones, sentencias y
+    operaciones acomodadas para procesar determinados datos, a los que llamamos argumentos, que al final nos entregara un resultado que 
+    debemos indicar con la palabra return. Por ejemplo, la funcion pastel(harina, huevos...) necesita de los argumentos que estan dentro 
+    de los parentesis, entre corchetes {} se encontraran todas las instrucciones y que argumentos involucra -batir huevos, por ejemplo- 
+    dejando al final algo como "return pastel" para decir que es eso lo que queremos que la funcion nos entregue, descartando otros 
+    resultados irrelevantes como las cascaras del huevo u otros desperdicios que tambien son producto del proceso pero no son el 
+    que nos interesa.
+
+* Declaraciones `if`
+    Se usa para indicar que la siguiente instruccion debe realizarse solo en el caso de que cumpla con una condicion 
+    expresada dentro de los parentesis. Si la comparacion resulta ser verdadera, el programa ejecuta las instrucciones,
+    de arrojar un resultado 'falso' el programa no hará nada a menos que se lo pidamos mediante un 'else', lo cual seria
+    la segunda opcion para cuando la condicion no se cumpla.
+
+* Valores booleanos (`true`, `false`):
+    Nos indican uno de dos estados que podemos asemejar a encendido o apagado. Nos sirven para simplificar tomas de decisiones;
+    al etiquetar variables bajo este tipo es como si creaeramos un foco que solo puede estar encendido o apagado, y podemos usar esos 
+    estados como señales para activar otras partes del programa, por ejemplo, mediante la evaluacion de una declaracion if.
