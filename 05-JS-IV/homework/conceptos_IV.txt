@@ -1,0 +1,26 @@
+* Objetos
+    Son entidades que se componen de propiedades y metodos,
+    las propiedades son pares de atributos (el nombre de la propiedad) y
+    su valor asignado; los metodos instrucciones que definen
+    el comportamiento y la funcion que tienen los objetos dentro
+    del contexto del programa o sistema.
+* Propiedades
+        Son los pares de clave y valor que definen el tipo de datos
+        y sus respectivos valores que componen al objeto.
+
+
+* Métodos
+    Son la serie de instrucciones o algortimos que indican 
+    la funcion que tiene el objeto dentro del sistema
+
+* Bucle `for…in`
+    El bucle for...in itera () sobre las propiedades de un objeto. 
+    El bloque de código dentro del bucle se ejecuta una vez para cada propiedad.
+
+
+* Notación de puntos vs notación de corchetes
+    son maneras de acceder a la propiedad de un objeto,  con la 
+    notacion punto solo hay que escribir un punto en seguida del nombre del 
+    objeto y sin dejar espacio agregar el nombre de la propiedad.
+    Cuando se usan corchetes, el nombre de la propiedad va dentro de 
+    estos escrito como si fuera un string entre comillas.
