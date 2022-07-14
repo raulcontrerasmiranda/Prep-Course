@@ -1,0 +1,9 @@
+* `prototype`
+    es un metodo especial que contienen las clases de javascript, que sirve para añadir nuevos atributos 
+    a una clase ya existente y que estos aparezcan en las nuevas instancias
+
+
+* _Constructors_ (de Clases)
+    es un metodo especial que se usa cuando necesitamos crear una nueva instancia de una clase
+    usando la funcion New
+
