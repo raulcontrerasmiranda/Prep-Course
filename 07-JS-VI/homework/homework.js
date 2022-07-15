@@ -29,15 +29,11 @@ function sumarArray(numeros, cb) {
   // Pasa el resultado a `cb`
   // No es necesario devolver nada
   //Tu código:
-    var numeros = [1,2,3,4,5];
-    var suma = 0;
-    for(var i = 0; i < numeros.lenght; i++){
-      suma + suma + numeros[i];
 
-    }
-
-    cb(suma);
-
+  var sumaTotal = numeros.reduce(function(acc, curr) {
+    return acc + curr;
+  },0);
+  cb(sumaTotal);
 }
 
 function forEach(array, cb) {
@@ -67,7 +63,7 @@ function filter(array) {
   //Tu código:
   var nuevoArray = [];
   for(let i = 0; i<array.length; i++) {
-    if(array[i] === "a") {
+    if(array[i][0] === "a") {
       nuevoArray.push(array[i])
     }
   }

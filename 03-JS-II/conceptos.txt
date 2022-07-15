@@ -1,0 +1,13 @@
+* `for`
+    Este ciclo sirve para repetir una instruccion o bloque de insturcciones hasta que cierta condicion se cumpla.
+
+
+* `&&`, `||`, `!`
+    && sirve para evaluar dos operaciones de comparacion booleana; devuelve true cuando solo cuando ambas operaciones arrojan true
+    de lo contrario devuelve false
+
+    || sirve para lo mismo pero devuelve true siempre que una de las dos comparaciones sean true; en cambio devuelve false 
+    cuando ambas comparaciones son false.
+
+    ! sirve para invertir el valor de una variable booleana, expresion o comparacion; lo que es originalmente true lo convierte en false
+    lo que es false lo convierte en true.
