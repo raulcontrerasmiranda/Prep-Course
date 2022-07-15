@@ -1,0 +1,15 @@
+h1 {color : red}
+    img {width : 400px}
+    #thirdDiv {
+        height : 600px;
+        width : 500px;
+        bg-color: green;
+        padding: 50px;
+        border-width : 10px;
+        border-color : teal;
+        border-style : double;
+    }
+
+    #spanID {
+        margin : 50px;
+    }
