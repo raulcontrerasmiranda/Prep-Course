@@ -20,7 +20,7 @@ function obtenerLargoDelArray(array) {
   // Devuelve el largo de un array
   // Tu código:
 
-  return array.lenght;
+  return array.length;
 }
 
 
@@ -139,7 +139,7 @@ function cuentoElementos(arreglo){
   //Escribe tu código aquí
 
   var mayores = 0;
-  for(var i = 0; i < arreglo.lenght; i++){
+  for(var i = 0; i < arreglo.length; i++){
     if (arreglo[i] > 18){
       mayores = mayores + 1;
 

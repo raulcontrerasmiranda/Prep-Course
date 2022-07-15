@@ -1,0 +1,3 @@
+* Arrays:
+    Son variables que almacenan mas de 1 dato y los ordenan de forma consecutiva en lugares que se numeran empezando desde el 0, 
+    a tal numero se le llama indice o index en ingles.
