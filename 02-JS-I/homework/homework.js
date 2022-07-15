@@ -16,7 +16,7 @@ const nuevaResta = 10 - 5 === 5;
 const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === 4;
+const nuevoModulo = 21 % 5 === 1;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -83,7 +83,7 @@ function tienenMismaLongitud(str1, str2) {
   // De lo contrario, devuelve "false"
   // Tu código:
   
-  if(str1.lenght == str2.lenght){
+  if(str1.lenght === str2.lenght){
     return true;
   } else {
     return false;
@@ -128,8 +128,8 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  var mod = num/2;
-  if(mod == 0){
+  
+  if(num % 2 === 0){
     return true;
   } else {
     return false;
@@ -141,8 +141,8 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  var mod = num/2;
-  if(mod > 0){
+  
+  if(num % 2 > 0){
     return true;
   } else {
     return false;
@@ -242,7 +242,7 @@ function obtenerSaludo(nombre) {
   // "Martin" -> "Hola Martin!"
   // Tu código:
  
-  return "Hola " + nombre;
+  return "Hola " + nombre + "!";
   
 }
 
